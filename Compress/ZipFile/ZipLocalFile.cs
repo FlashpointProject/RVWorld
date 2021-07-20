@@ -123,6 +123,7 @@ namespace Compress.ZipFile
                     FileName = (GeneralPurposeBitFlag & (1 << 11)) == 0
                         ? ZipUtils.GetString(bFileName)
                         : Encoding.UTF8.GetString(bFileName, 0, fileNameLength);
+
                     
                     if (extraFieldLength > 0)
                     {

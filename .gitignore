@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/Binaries
 /Compress/bin
 /Compress/obj
 /DATReader/bin
@@ -27,6 +28,8 @@
 /Trrntzip/obj
 /TrrntZipCMD/bin
 /TrrntZipCMD/obj
+/TrrntzipCMD/log.txt
+/TrrntzipCMD/output*
 /TrrntZipUI/bin
 /TrrntZipUI/obj
 /.vs/RVWorld/v16/Server/sqlite3

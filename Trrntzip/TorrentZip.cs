@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using Compress;
@@ -126,6 +127,7 @@ namespace Trrntzip
             ZipReturn zr = zipFile.ZipFileOpen(fi.FullName, fi.LastWriteTime);
             if (zr != ZipReturn.ZipGood)
             {
+                Console.WriteLine("ZipFile opening failed");
                 return TrrntZipStatus.CorruptZip;
             }
 

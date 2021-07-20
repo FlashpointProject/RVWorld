@@ -7,11 +7,15 @@ namespace Compress.ZipFile
     {
         // according to the zip documents, zip filesname are stored as MS-DOS Code Page 437.
         // (Unless the uncode flag is set, in which case they are stored as UTF-8.
-        private static Encoding enc = Encoding.GetEncoding(437);
+        private static Encoding enc = CodePagesEncodingProvider.Instance.GetEncoding(437);
 
         public static string GetString(byte[] byteArr)
         {
-            return enc.GetString(byteArr);
+            try {
+                return enc.GetString(byteArr);
+            } catch (Exception e) {
+                return Encoding.UTF8.GetString(byteArr);
+            }
         }
 
         // to test if a filename can be stored as codepage 437 we take the filename string

@@ -1,18 +1,9 @@
-# RVWorld (RomVaultWorld)
+# TrrntZip.NET Cross-Platform fork
 
-## The home of RomVault 3.0
+Updated packages to .NET 5.0
 
-RomVaultX is the DeDup'ed version of RomVault, where everything is stored using the files SHA1
+## Package
 
-* Compress         --  7Zip & Zip compression libraries
-* DATReader        --  Reads DAT files into a Class structure
-* DATReaderTest    --  Stand alone DATReader Test
-* Dir2Dat          --  Use DATReader to perform Dir2Dat (Experimental)
-* FileHeaderReader --  No-Intro File reader code.
-* ROMVault         --  The UI code for ROMVault3
-* RVCore           --  The Core Engine for ROMVault3
-* RVIO             --  File code that enabled long filenames
-* RomVaultX        --  DeDup'ed Sqlite version of RomVault
-* Trrntzip         --  Trrntzip core library code
-* TrrntzipCMD      --  Commandline version of Trrntzip
-* TrrntzipUI       --  UI version of Trrntzip
+Run `dotnet publish -r <dotnet_rid>` where the dotnet_rid matches the architecture you want to build for.
+
+See https://docs.microsoft.com/en-us/dotnet/core/rid-catalog

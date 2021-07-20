@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using Compress.Utils;
 using FileInfo = RVIO.FileInfo;
 using FileStream = RVIO.FileStream;
@@ -59,8 +60,8 @@ namespace Compress.ZipFile
                 return ZipReturn.ZipGood;
             }
 
-
-            return ZipFileReadHeaders();
+            var status = ZipFileReadHeaders();
+            return status;
         }
 
 
@@ -128,7 +129,7 @@ namespace Compress.ZipFile
                 }
 
                 if (zip64Required && !_zip64)
-                {
+                {                    
                     return ZipReturn.Zip64EndOfCentralDirError;
                 }
 
