@@ -6,4 +6,6 @@ Updated packages to .NET 5.0
 
 Run `dotnet publish -r <dotnet_rid>` where the dotnet_rid matches the architecture you want to build for.
 
+Binaries can be found in `/Binaries`
+
 See https://docs.microsoft.com/en-us/dotnet/core/rid-catalog
