@@ -7,27 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compress", "Compress\Compre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RVIO", "RVIO\RVIO.csproj", "{FF8A7A0A-6319-49E0-A6E6-DF3754BFFDD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trrntzip", "trrntzip\Trrntzip.csproj", "{21822412-A4CE-4A55-BD41-AAEA753753F1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrrntZipUI", "TrrntZipUI\TrrntZipUI.csproj", "{BEC3CB3D-0E37-4857-89D7-17C20EF440EB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomVaultX", "RomVaultX\RomVaultX.csproj", "{B5A4FB1B-FF88-4EB8-95F0-BCE4ED52E020}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATReader", "DATReader\DATReader.csproj", "{2FFD495B-2ECA-49A5-983B-F2E10D64830E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dir2Dat", "Dir2Dat\Dir2Dat.csproj", "{A5A7480D-94AE-499F-B2E9-ACE1FAD2D54C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomVault", "ROMVault\RomVault.csproj", "{437E12AB-46F3-4A75-A3D5-6C524B5A79B5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHeaderReader", "FileHeaderReader\FileHeaderReader.csproj", "{8A90A6CF-F673-4633-829A-8484EFDF14FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trrntzip", "Trrntzip\Trrntzip.csproj", "{21822412-A4CE-4A55-BD41-AAEA753753F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrrntZipCMD", "TrrntZipCMD\TrrntZipCMD.csproj", "{68E9ABE4-313F-4345-9A8E-6E80289651C5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATReaderTest", "DATReaderTest\DATReaderTest.csproj", "{FC28D641-E8D4-43F8-98D3-32CB562399CE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RVCore", "RVCore\RVCore.csproj", "{DDA3C8CB-C4A1-4511-AAD6-601B1C1F589A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RVCmd", "RVCmd\RVCmd.csproj", "{A1AE4114-496A-4FDC-BBAE-493CEE1FC224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
